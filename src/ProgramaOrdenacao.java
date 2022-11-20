@@ -7,7 +7,7 @@ public class ProgramaOrdenacao {
         Scanner input = new Scanner (System.in);
 
         int [] NumberList = new int[11];
-
+ 
         for (int i = 0; i < NumberList.length; i++){
             System.out.println("Digite um número aleatório:");
             NumberList[i] = input.nextInt();
